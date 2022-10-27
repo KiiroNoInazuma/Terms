@@ -24,7 +24,7 @@ public class TermsFive {
                 System.out.println(monthNumber+"-й месяц принадлежит к сезону осень.");
                 break;
             default:
-                if(monthNumber>13) {
+                if(monthNumber>12) {
                     System.out.println("Номер месяца не может быть больше 13!");
                 }
         }
