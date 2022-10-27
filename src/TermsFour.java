@@ -4,7 +4,7 @@ public class TermsFour {
         int deliveryDays = 1;
         int interval = 40;
         int firstDayDistance = 20;
-        if ((deliveryDistance % interval < firstDayDistance) && interval >= firstDayDistance) {
+        if ((deliveryDistance % interval) < firstDayDistance && interval >= firstDayDistance) {
             deliveryDays += deliveryDistance / interval;
             System.out.println(deliveryDays);
         } else if (interval < firstDayDistance) {
